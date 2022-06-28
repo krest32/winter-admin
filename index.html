@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <!-- 对于中文网页需要使用 <meta charset="utf-8"> 声明编码，否则会出现乱码。有些浏览器(如 360 浏览器)会设置 GBK 为默认编码，则你需要设置为 <meta charset="gbk">。 -->
+    <!-- meta 相当于系统标签设置 -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>Winter 后端测试系统</title>
+    <meta name="description" content="Winter博客自定义管理系统"></meta>
+    <meta name="Keywords" content="博客，自定义，开发"></meta>
+</head>
+  <body>
+
+    <!-- 导入富文本编辑器的js资源 -->
+    <script src=<%= BASE_URL %>/tinymce4.7.5/tinymce.min.js></script>
+    <script src=<%= BASE_URL %>/tinymce4.7.5/langs/zh_CN.js></script>
+
+    <!-- id 选择器 -->
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+
+  </body>
+</html>
